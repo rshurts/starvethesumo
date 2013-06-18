@@ -1,32 +1,42 @@
 /* Colors
-charcoal      #191919
-dark gray     #333333
-light gray    #b3b3b3
-bright gray   #e5e5e5
-red           #800000
-blue          #0080ff
-cyan          #00a6b2
-yellow        #e5e500
-bright yellow #ccff66
+black         #000000
+orange        #ff9900
+blue          #6699cc
+violet        #332a45
+green         #a7d6ac
+peach         #e6e6cc
+tan           #cccc99
+brown         #9c9284
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: #b3b3b3;
-  background: #333333;
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #332a45;
+  background: #e6e6cc;
 }
 
 footer {
-  color: #b3b3b3;
-  background: #4d4d4d;
+  margin: 40px 0 0 0;
+  font-size: 14px;
+  color: #9c9284;
+  background: #cccc99;
 }
 
 .hero {
+  margin: 0 0 -20px 0;
   text-align: center;
-  color: #b3b3b3;
-  background: #4d4d4d;
+  font-size: 42px;
+  color: #6699cc;
+  background: #cccc99
+}
+
+.hero .starve {
+  font-weight: 100;
+}
+.hero .sumo {
+  font-weight: 900;
 }
 
 .main{
@@ -34,13 +44,24 @@ footer {
 }
 
 .launch {
-  text-align: center;
   display: inline-block;
   margin: -40px 0 40px 0;
   padding: 0 20px 0 20px;
-  font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
-  color: #191919;
-  background: #e5e500;
   border-radius: 10px;
   box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+  font-family: Monaco, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  color: #332a45;
+  background: #ff9900;
+}
+
+.intro {
+  text-align: left;
+}
+
+.nav {
+  font-size: 18px;
+}
+
+.nav li {
+  list-style-type: none;
 }
