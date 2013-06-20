@@ -30,6 +30,11 @@ h2 {
   font-size: 24px;
 }
 
+h5 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
 a {
   color: #6699cc;
   text-decoration: none;
@@ -51,6 +56,12 @@ footer {
   padding: 20px 0 20px 0;
   text-align: center;
   font-size: 42px;
+  color: #6699cc;
+  background: #cccc99;
+}
+
+.header {
+  font-size: 22px;
   color: #6699cc;
   background: #cccc99;
 }
@@ -89,4 +100,14 @@ footer {
 
 .nav li {
   list-style-type: none;
+}
+
+.tip {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 2px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+  position: relative;
+  background: #a7d6ac
 }

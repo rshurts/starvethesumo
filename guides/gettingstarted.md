@@ -5,7 +5,6 @@ permalink: /gettingstarted/
 ---
 
 ## Welcome
-
 This site aims to provide a comprehensive approach to blocking explicit content from your home network and the devices attached to that network. Specific security practices are employed to prevent content filters from being bypassed and to create a more secure computing environment.
 
 ## Using the Guides
