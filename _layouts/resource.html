@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include header.html %}
+<div class="grid">
+  <div class="unit one-quarter hide-on-mobiles">
+    <aside>
+      {% include resources.html %}
+    </aside>
+  </div>
+  <div class="mobile-nav unit whole center-on-mobiles show-on-mobiles">
+    <aside>
+      {% include resources_mobile.html %}
+    </aside>
+  </div>
+  <div class="unit three-quarters">
+    <article>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+  </div>
+</div>
