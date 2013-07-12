@@ -1,0 +1,23 @@
+<select onchange="if (this.value) window.location.href=this.value">
+  <option value="">Select a Guide</option>
+  <option value="{{ site.url }}/guides/gettingstarted">Getting Started</option>
+  <optgroup label="Securing Your Network">
+    <option value="{{ site.url }}/guides/securingnetwork">Securing Your Network</option>
+    <option value="{{ site.url }}/guides/securingnetwork/filteringcontent">Filtering Content</option>
+    <option value="{{ site.url }}/guides/securingnetwork/router">Setting Up Your Router</option>
+  </optgroup>
+  <optgroup label="Securing Your Computer">
+    <option value="{{ site.url }}/guides/securingcomputer">Securing Your Computer</option>
+    <option value="{{ site.url }}/guides/securingcomputer/osx">OS X</option>
+    <option value="{{ site.url }}/guides/securingcomputer/windows">Windows</option>
+  </optgroup>
+  <optgroup label="Activity Controls">
+    <option value="{{ site.url }}/guides/activitycontrols">Activity Controls</option>
+    <option value="{{ site.url }}/guides/activitycontrols/osx">OS X</option>
+    <option value="{{ site.url }}/guides/activitycontrols/windows">Windows</option>
+    <option value="{{ site.url }}/guides/activitycontrols/ios">iOS</option>
+    <option value="{{ site.url }}/guides/activitycontrols/itunes">iTunes</option>
+    <option value="{{ site.url }}/guides/activitycontrols/xbox360">Xbox 360</option>
+    <option value="{{ site.url }}/guides/activitycontrols/playstation3">Playstation 3</option>
+  </optgroup>
+</select>
