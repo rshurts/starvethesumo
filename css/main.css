@@ -10,16 +10,18 @@ brown         #9c9284
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: 16px;
   font-weight: 300;
   color: #332a45;
   background: #e6e6cc;
 }
 
-h1, h2 {
-  font-weight: 500;
-  border-bottom: 1px solid #a7d6ac;
+h1, h2, h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  border-bottom: 1px solid #a7d6ac
 }
 
 h1 {
@@ -31,8 +33,7 @@ h2 {
 }
 
 h5 {
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 20px;
 }
 
 a {
@@ -42,6 +43,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+header {
+  font-size: 24px;
+  color: #6699cc;
+  background: #cccc99;
 }
 
 footer {
@@ -55,23 +62,21 @@ footer {
   margin: 0 0 -20px 0;
   padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 42px;
-  color: #6699cc;
-  background: #cccc99;
-}
-
-.header {
-  font-size: 22px;
+  font-size: 56px;
   color: #6699cc;
   background: #cccc99;
 }
 
 .starve {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
+  text-decoration: none;
 }
 
 .sumo {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .main{
@@ -95,7 +100,7 @@ footer {
 }
 
 .nav {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav li {
@@ -103,6 +108,7 @@ footer {
 }
 
 .tip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 60px;
   margin-right: 60px;
   padding: 2px 20px 20px 20px;

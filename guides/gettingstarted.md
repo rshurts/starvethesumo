@@ -18,6 +18,6 @@ Because of the number of different devices out there, some guides my not be appl
 Throughout the guides there are a number of tips in boxes. Tips help explain what is going on and give pointers on improving your setup. Tips are completely optional, so feel free to use them or ignore them at your own discretion.
 
 <div class="tip">
-  <h5>Tips help you get more from the guides</h5>
+  <h5>This is a tip</h5>
   <p>These are tips and tricks that will help you make the most of your setup.</p>
 </div>
