@@ -16,7 +16,7 @@ Filtering will be done though blocking information requests from explicit domain
 1. Sign up for the free [OpenDNS Home](http://www.opendns.com/home-solutions/parental-controls/) service.
 1. Follow the instructions to add your home network.
 1. Click on your newly created home network IP address and then click on *Web Content Filtering* if you aren't already there.
-1. Choose the level of filtering you want or select *Custom* and select the categories you would like to filter out.
+1. Choose the level of filtering you want or select *Custom* and select the categories you would like to filter out. **This is where you filter out pornographic web sites, so make sure you select something.**
 1. Download and install the OpenDNS updater for [Mac OS X](https://www.opendns.com/download/mac) or [Windows](https://www.opendns.com/download/windows) on a computer that remains on and in your home. The updater makes sure your network is using OpenDNS.
 
 <div class="tip">
