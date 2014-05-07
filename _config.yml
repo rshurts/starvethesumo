@@ -1,4 +1,4 @@
 name: Starve the Sumo
-pygments: true
+highlighter: true
 relative_permalinks: false
 markdown: kramdown
