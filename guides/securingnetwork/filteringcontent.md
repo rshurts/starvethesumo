@@ -21,5 +21,6 @@ Filtering will be done though blocking information requests from explicit domain
 
 <div class="tip">
   <h5>OpenDNS Home versus OpenDNS Family Shield</h5>
-  <p>You may have noticed OpenDNS provides a service called Family Shield. Family Shield is a pre-configured blocker of explicit content. While this is a good choice for many, OpenDNS Home provides the same protection but with more options, including the ability to blacklist or white list specific domain names for greater control.</p>
+  <p>You may have noticed OpenDNS provides a service called Family Shield. Family Shield is a pre-configured blocker of explicit content.</p>
+  <p>While this is a good choice for many, OpenDNS Home provides the same protection but with more options, including the ability to blacklist or white list specific sites for greater control. It also provides logging tools for checking up on activity. As such, we advocate using Home.</p>
 </div>
